@@ -1,0 +1,64 @@
+                                       parametro   x p_hat    ee wald95_inf
+1                                        Mujeres 740 60.11 1.344      57.48
+2                   Con conexión fija a internet 944 76.69 1.161      74.41
+3                                     Con laptop 804 65.31 1.307      62.75
+4                                 Con smartphone 822 66.77 1.293      64.24
+5                   Con computador de escritorio 341 27.70 1.229      25.29
+6                                     Con tablet  50  4.06 0.542       3.00
+7                         Sin ningún dispositivo  41  3.33 0.493       2.37
+8  Con participación previa en educación virtual 520 42.24 1.356      39.58
+9            Percibe complejidad leve o moderada 880 71.49 1.239      69.06
+10                      Percibe complejidad alta 238 19.33 1.084      17.21
+11 Acepta refuerzo de contenidos por plataformas 768 62.39 1.330      59.78
+12             Acepta plataformas en emergencias 808 65.64 1.304      63.08
+   wald95_sup wald97_inf wald97_sup wilson95_inf wilson95_sup
+1       62.75      57.20      63.03        57.35        62.81
+2       78.96      74.17      79.20        74.24        78.96
+3       67.87      62.48      68.15        62.61        67.92
+4       69.31      63.97      69.58        64.10        69.35
+5       30.11      25.04      30.37        25.27        30.27
+6        5.12       2.89       5.24         3.09         5.31
+7        4.30       2.26       4.40         2.46         4.49
+8       44.90      39.30      45.18        39.51        45.02
+9       73.92      68.80      74.18        68.90        73.94
+10      21.46      16.98      21.69        17.22        21.63
+11      64.99      59.50      65.27        59.65        65.05
+12      68.19      62.81      68.47        62.94        68.24
+  id                                                             hipotesis   p0
+1 H1                  Conexión fija a internet: H0 p = 0.75 vs H1 p > 0.75 0.75
+2 H2 Participación previa en educación virtual: H0 p = 0.50 vs H1 p < 0.50 0.50
+3 H3             Acepta refuerzo de contenidos: H0 p = 0.60 vs H1 p > 0.60 0.60
+4 H4         Acepta plataformas en emergencias: H0 p = 0.60 vs H1 p > 0.60 0.60
+  alternativa   x p_hat      z  valor_p valor_p_binomial_exacto cond_np0
+1     greater 944 76.69  1.418 7.81e-02                9.06e-02   923.25
+2        less 520 42.24 -5.652 7.92e-09                2.88e-08   615.50
+3     greater 768 62.39  1.776 3.79e-02                4.60e-02   738.60
+4     greater 808 65.64  4.192 1.38e-05                2.64e-05   738.60
+  cond_nq0       decision
+1   307.75 No rechazar H0
+2   615.50    Rechazar H0
+3   492.40    Rechazar H0
+4   492.40    Rechazar H0
+
+Chi-cuadrada de bondad de ajuste:
+
+	Chi-squared test for given probabilities
+
+data:  obs
+X-squared = 349.44, df = 3, p-value < 2.2e-16
+
+  categoria observada esperada residuo_estandarizado
+1   Ninguno       113   307.75                -12.82
+2      Leve       318   307.75                  0.67
+3  Moderado       562   307.75                 16.74
+4      Alto       238   307.75                 -4.59
+      chi2 gl     valor_p  w_cohen esperada_minima
+1 349.4419  3 1.97023e-75 0.532793          307.75
+  media_sim     sd_sim ee_teorico sesgo_asimetria
+1 0.7667877 0.01165989 0.01160727     -0.03605655
+null device 
+          1 
+null device 
+          1 
+
+Listo. Resultados en la carpeta 'resultados/'.

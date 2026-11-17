@@ -1,0 +1,13 @@
+"parametro","x","p_hat","ee","wald95_inf","wald95_sup","wald97_inf","wald97_sup","wilson95_inf","wilson95_sup"
+"Mujeres",740,60.11,1.344,57.48,62.75,57.2,63.03,57.35,62.81
+"Con conexión fija a internet",944,76.69,1.161,74.41,78.96,74.17,79.2,74.24,78.96
+"Con laptop",804,65.31,1.307,62.75,67.87,62.48,68.15,62.61,67.92
+"Con smartphone",822,66.77,1.293,64.24,69.31,63.97,69.58,64.1,69.35
+"Con computador de escritorio",341,27.7,1.229,25.29,30.11,25.04,30.37,25.27,30.27
+"Con tablet",50,4.06,0.542,3,5.12,2.89,5.24,3.09,5.31
+"Sin ningún dispositivo",41,3.33,0.493,2.37,4.3,2.26,4.4,2.46,4.49
+"Con participación previa en educación virtual",520,42.24,1.356,39.58,44.9,39.3,45.18,39.51,45.02
+"Percibe complejidad leve o moderada",880,71.49,1.239,69.06,73.92,68.8,74.18,68.9,73.94
+"Percibe complejidad alta",238,19.33,1.084,17.21,21.46,16.98,21.69,17.22,21.63
+"Acepta refuerzo de contenidos por plataformas",768,62.39,1.33,59.78,64.99,59.5,65.27,59.65,65.05
+"Acepta plataformas en emergencias",808,65.64,1.304,63.08,68.19,62.81,68.47,62.94,68.24

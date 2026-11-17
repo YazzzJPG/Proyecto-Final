@@ -1,0 +1,20 @@
+pregunta,categoria,frecuencia,porcentaje_reportado,n_respuestas,grafico_informe
+genero,Mujer,740,60.1,1231,1
+genero,Hombre,491,39.9,1231,1
+dispositivos,Computador de escritorio,341,27.7,1231,3
+dispositivos,Laptop,804,65.3,1231,3
+dispositivos,Tablet,50,4.1,1231,3
+dispositivos,Smartphone,822,66.8,1231,3
+dispositivos,Ninguno de los anteriores,41,3.3,1231,3
+internet_fijo,Sí,944,76.7,1231,4
+internet_fijo,No,287,23.3,1231,4
+curso_virtual_previo,Sí,520,42.2,1231,5
+curso_virtual_previo,No,711,57.8,1231,5
+complejidad_uso,Ninguno,113,9.2,1231,6
+complejidad_uso,Leve,318,25.8,1231,6
+complejidad_uso,Moderado,562,45.7,1231,6
+complejidad_uso,Alto,238,19.3,1231,6
+acepta_refuerzo,Sí,768,62.4,1231,7
+acepta_refuerzo,No,463,37.6,1231,7
+acepta_emergencia,Sí,808,65.6,1231,8
+acepta_emergencia,No,423,34.4,1231,8

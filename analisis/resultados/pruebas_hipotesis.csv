@@ -1,0 +1,5 @@
+"id","hipotesis","p0","alternativa","x","p_hat","z","valor_p","valor_p_binomial_exacto","cond_np0","cond_nq0","decision"
+"H1","Conexión fija a internet: H0 p = 0.75 vs H1 p > 0.75",0.75,"greater",944,76.69,1.418,0.0781,0.0906,923.25,307.75,"No rechazar H0"
+"H2","Participación previa en educación virtual: H0 p = 0.50 vs H1 p < 0.50",0.5,"less",520,42.24,-5.652,7.92e-09,2.88e-08,615.5,615.5,"Rechazar H0"
+"H3","Acepta refuerzo de contenidos: H0 p = 0.60 vs H1 p > 0.60",0.6,"greater",768,62.39,1.776,0.0379,0.046,738.6,492.4,"Rechazar H0"
+"H4","Acepta plataformas en emergencias: H0 p = 0.60 vs H1 p > 0.60",0.6,"greater",808,65.64,4.192,1.38e-05,2.64e-05,738.6,492.4,"Rechazar H0"
